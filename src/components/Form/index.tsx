@@ -4,7 +4,6 @@ import styles from './styles.module.css'
 export function Form() {
   return (
     <div className={styles.form}>
-      <div className={styles.timer}>00:00</div>
       <div className={styles.task}>
         <span>task</span>
         <input type="text" placeholder="Digite algo" />

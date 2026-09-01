@@ -8,11 +8,6 @@
   color: var(--text-default);
 }
 
-.timer {
-  font-size: 16rem;
-  font-weight: 700;
-}
-
 .task {
   display: flex;
   flex-direction: column;
