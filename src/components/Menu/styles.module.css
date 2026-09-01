@@ -6,13 +6,15 @@
 }
 
 .menuLink {
-  display: flex;
-  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background-color: var(--primary);
   color: var(--text-over-primary);
   transition: all .1s ease-in-out;
-  background-color: var(--primary);
-  border-radius: 20%;
-  padding: 1rem;
+  padding: 1.2rem;
+  border-radius: 0.8rem;
 }
 
 .menuLink:hover {
@@ -20,7 +22,7 @@
 }
 
 .menuLink svg {
-  width: 3.4rem;
-  height: 3.4rem;
+  width: 2.4rem;
+  height: 2.4rem;
   cursor: pointer;
 }
