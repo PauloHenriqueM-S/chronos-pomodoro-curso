@@ -7,7 +7,7 @@ import { Footer } from './components/Footer'
 import { CountDown } from './components/CountDown'
 import { DefaultInput } from './components/DefaultInput'
 import { Cycles } from './components/Cycles'
-import { PlayCircleIcon, StopCircleIcon } from 'lucide-react'
+import { PlayCircleIcon } from 'lucide-react'
 import { DefaultButton } from './components/DefaultButton'
 
 export function App() {
