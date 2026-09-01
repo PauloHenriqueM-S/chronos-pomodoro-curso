@@ -1,0 +1,14 @@
+import { FileCogIcon, HomeIcon, ListClockIcon, SunIcon } from "lucide-react";
+
+import styles from './styles.module.css'
+
+export function Menu() {
+  return (
+    <div className={styles.menu}>
+      <a className={styles.menuLink} href="#"><HomeIcon /></a>
+      <a className={styles.menuLink} href="#"><ListClockIcon /></a>
+      <a className={styles.menuLink} href="#"><FileCogIcon /></a>
+      <a className={styles.menuLink} href="#"><SunIcon /></a>
+    </div>
+  )
+}
