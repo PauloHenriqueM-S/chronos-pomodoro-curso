@@ -4,6 +4,7 @@ import { Container } from './components/Container'
 import { Heading } from './components/Heading'
 import { Logo } from './components/Logo'
 import { Menu } from './components/Menu'
+import { Form } from './components/Form'
 
 export function App() {
   return (
@@ -19,7 +20,9 @@ export function App() {
         </Heading>
       </Container>
       <Container>
-        <Heading>FORM</Heading>
+        <Heading>
+          <Form />
+        </Heading>
       </Container>
       <Container>
         <Heading>FOOTER</Heading>
