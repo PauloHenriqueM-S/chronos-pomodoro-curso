@@ -5,6 +5,7 @@ import { Heading } from './components/Heading'
 import { Logo } from './components/Logo'
 import { Menu } from './components/Menu'
 import { Form } from './components/Form'
+import { Footer } from './components/Footer'
 
 export function App() {
   return (
@@ -25,7 +26,9 @@ export function App() {
         </Heading>
       </Container>
       <Container>
-        <Heading>FOOTER</Heading>
+        <Heading>
+          <Footer />
+        </Heading>
       </Container>
     </>
   )
