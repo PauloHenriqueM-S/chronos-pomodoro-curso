@@ -6,6 +6,7 @@ import { Menu } from './components/Menu'
 import { Footer } from './components/Footer'
 import { CountDown } from './components/CountDown'
 import { DefaultInput } from './components/DefaultInput'
+import { Cycles } from './components/Cycles'
 
 export function App() {
   return (
@@ -28,8 +29,7 @@ export function App() {
             <p>Próximo ciclo é de FUNCTION</p>
           </div>
           <div className='formRow'>
-            <p>Ciclos</p>
-            <p>0 0 0 0 0 0 0</p>
+            <Cycles />
           </div>
           <div className='formRow'>
             <button type="submit">Enviar</button>
