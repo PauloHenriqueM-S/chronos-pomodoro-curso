@@ -3,8 +3,16 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-size: 1.2rem;
   gap: 1.6rem;
-  padding: 2.4rem 0;
-  color: var(--text-default);
-  font-size: 1.4rem;
+}
+
+.footer a {
+  color: var(--text-mudeted);
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: var(--text-muted);
+  text-decoration: underline;
 }
